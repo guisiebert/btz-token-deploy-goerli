@@ -6,7 +6,7 @@ async function main() {
     const address = await Bitizens.getAddress()
 
     console.log(
-        `Deployed to ${Bitizens.target} and address: ${address}`
+        `Deployed to ${Bitizens.target}`
     )
 }
 
